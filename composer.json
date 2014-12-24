@@ -18,4 +18,10 @@
             "tejrajs\\datatable\\": ""
         }
     }
+    "repositories":[
+   		{
+        	"type": "git",
+        	"url": "https://packagist.org/packages/tejrajs/yii2-datatable"
+    	}
+	]
 }
