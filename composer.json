@@ -10,6 +10,12 @@
             "email": "helloteju96@gmail.com"
         }
     ],
+    "repositories":[
+   		{
+        	"type": "git",
+        	"url": "https://packagist.org/packages/tejrajs/yii2-datatable"
+    	}
+	],
     "require": {
         "yiisoft/yii2": "*"
     },
@@ -18,10 +24,4 @@
             "tejrajs\\datatable\\": ""
         }
     }
-    "repositories":[
-   		{
-        	"type": "git",
-        	"url": "https://packagist.org/packages/tejrajs/yii2-datatable"
-    	}
-	]
 }
