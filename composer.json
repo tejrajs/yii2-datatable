@@ -1,0 +1,21 @@
+{
+    "name": "tejrajs/yii2-datatable",
+    "description": "DataTables Table plug-in for jQuery",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","datatable"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Tej Raj Shrestha",
+            "email": "helloteju96@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tejrajs\\datatable\\": ""
+        }
+    }
+}
