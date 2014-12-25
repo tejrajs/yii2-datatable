@@ -1,5 +1,6 @@
 {
     "name": "tejrajs/yii2-datatable",
+    "version": "0.0.1",
     "description": "DataTables Table plug-in for jQuery",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","datatable"],
@@ -15,6 +16,12 @@
     "require": {
         "yiisoft/yii2": "*"
     },
+    "repositories":[
+   		{
+        	"type": "git",
+        	"url": "https://packagist.org/packages/tejrajs/yii2-datatable"
+    	}
+	],
     "autoload": {
         "psr-4": {
             "tejrajs\\datatable\\": ""
