@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist tejrajs/yii2-datatable "*"
+php composer.phar require --prefer-dist tejrajs/yii2-datatable "dev-master"
 ```
 
 or add
 
 ```
-"tejrajs/yii2-datatable": "*"
+"tejrajs/yii2-datatable": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,8 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \tejrajs\datatable\DataTable::widget(); ?>```
+<?php
+use tejrajs\datatable\DataTable;
+?>
+<?= DataTable::widget(['message' => ' Yii2.0']) ?>
+```

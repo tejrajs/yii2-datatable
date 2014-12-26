@@ -1,5 +1,4 @@
 <?php
-
 namespace tejrajs\datatable;
 
 use yii\base\Widget;
